@@ -7,7 +7,11 @@ authors = [
     { name = "Saudii", email = "isaudatu81@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "pandas>=3.0.5",
+]
 
 [project.scripts]
 arewa-data-science-assignment-of-saudatu = "arewa_data_science_assignment_of_saudatu:main"
