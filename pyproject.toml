@@ -1,0 +1,17 @@
+[project]
+name = "arewa-data-science-assignment-of-saudatu"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Saudii", email = "isaudatu81@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+arewa-data-science-assignment-of-saudatu = "arewa_data_science_assignment_of_saudatu:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
